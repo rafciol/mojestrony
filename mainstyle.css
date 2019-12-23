@@ -1,0 +1,320 @@
+ body {
+    background-image: 
+    url("background.jpg");
+    display: block;
+ }
+
+ * {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+ }
+p {
+    font-family: 'Lato', sans-serif;
+}
+   
+.container {
+    clear: both;
+    overflow: hidden;
+    padding-top: 266px;
+}
+
+.containernaszamisja {
+    clear: both;
+    overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    border: 1px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom-style: inset black;
+    text-align: right;
+}
+
+.containerk {
+    clear: both;
+    overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+    margin: 0px;
+    padding: 16px;
+    border-bottom-style: inset black;
+    text-align: left;
+}
+
+.fcon2 {
+    padding-top: 244px;
+}
+
+.hcon2 {
+    padding-bottom: 221px;
+}
+
+ .title {
+    clear: both;
+    overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    border: 1px;
+    margin: 0px;
+    padding: 10px;
+    border-bottom-style: inset black;
+    text-align: right;
+ }
+
+ .title a {
+     position: relative;
+     bottom: 15px;
+     font-size: 18px;
+     padding-left: 20px;
+     padding-right: 20px;
+     text-decoration: none;
+ }
+
+/* .title a:hover {
+    animation: pulse 3s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(227, 240, 229);
+  }
+  50% {
+    background-color:  whitesmoke;
+  }
+  100% {
+    background-color: whitesmoke;
+  }
+} */
+
+ .title a:hover {
+    color: #64d732;
+ }
+
+ .title a {
+     color: #4a6525;
+ }
+
+ #titleimg {
+     position: relative;
+     top: 20px;
+     right: 10px;
+     padding-right: 1100px;
+ }
+
+ .subtitle {
+    clear: both;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    overflow: hidden;
+    border: 1px;
+    margin: 0px;
+    padding: 1px;
+    border-bottom-style: inset black;
+    text-align: right;
+    font: 18px "Helvetica", sans-serif;
+ }
+ .hcon {
+     padding-bottom: 10px;
+ }
+ .fcon {
+     padding-top: 230px;
+ }
+
+ .fcon3 {
+ }
+ .hcon3 {
+ }
+
+ .subtitle h6 {
+     padding-right: 30px;
+     font-size: small;
+ }
+
+ .lt {
+    position: relative;
+    bottom: -245px;
+    left: 45px;
+    font-size: 20px;
+    font: 18px "Helvetica", sans-serif;
+ }
+
+ .rt {
+     font-size: 18px;
+     font: 18px "Helvetica", sans-serif;
+ }
+
+ .titletext {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font: 18px "Helvetica", sans-serif;
+}
+
+.titletext2 {
+    padding-top: 15px;
+    text-align: left;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    font: 18px "Helvetica", sans-serif;
+}
+
+.rejnimg {
+    position: relative;
+    top: -300px;
+    padding-right: 80px;
+}
+
+.paralax {
+    background-image: url("rejn.jpg");
+    
+    height: 350px;
+    width: 1100px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+.trescnaszamisja {
+    padding-left: 70px;
+    text-align: left;
+}
+
+.trescnaszamisja2 {
+    padding-bottom: -100px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.trescnaszamisja3 {
+    color: #64d732;
+    padding-left: 70px;
+    text-align: left;
+}
+
+@media (min-width: 1366px) {
+
+    body {
+        width:1366px;margin: 0 auto;}
+    }
+    
+    @media (max-width: 1200px) and (min-width: 950px) {
+    
+    body {
+        width:1000px;margin: 0 auto;}
+    }
+    
+    @media (max-width: 1000px) and (min-width: 900px) {
+    
+    body {
+        width:900px;margin: 0 auto;}
+     .rejnimg {
+        height: 100%;
+        width: 95%;
+        padding-right: 50px;
+        padding-left: 20px;
+        padding-top: 350px;
+     }
+    }
+
+    @media (max-width: 815px) {
+    body {
+        margin: 0px;
+        padding: 10px;
+     }  
+    }
+    @media (max-width: 815px) {
+    body {
+        margin-left: 50px;
+    }
+    .menuicon {
+       padding-bottom: 100px;
+     }
+    }
+
+    @media (max-width: 950px) and (min-width: 300px) {
+    body {
+     }
+     .titletext {
+         padding-top: 50px;
+         text-align: center;
+     }
+     .ntitletext {
+         text-align: left;
+     }
+     /* .ntitletext {
+         border: 2px solid black;
+     }
+    } */
+
+    @media (max-width: 900px) and (min-width: 300px) {
+    body {
+     }
+    #titleimg {
+        position: center;
+    }
+    .rejnimg {
+        height: 100%;
+        width: 95%;
+        padding-right: 50px;
+        padding-left: 20px;
+        padding-top: 350px;
+     }    
+    }
+    
+    @media (max-width: 800px) and (min-width: 100px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+     }
+    }
+
+    @media (max-width: 500px) and (min-width: 300px) {
+        body {
+            margin: 0px;
+         }
+         .title {
+            clear: both;
+            overflow: hidden;
+            background-color: white;
+            overflow: hidden;
+            border: 1px;
+            margin: 0px;
+            padding: 0px;
+            border-bottom-style: inset black;
+            text-align: center;
+         }
+        }
+    
+    @media only screen and (max-width:800px) {
+        /* For tablets: */
+        body {
+          width: 80%;
+          padding: 0;
+        }
+        div {
+          width: 100%;
+        }
+      }
+      @media only screen and (max-width:500px) {
+        /* For mobile phones: */
+        body, div, img {
+          margin: 0;
+        }
+      }
+}

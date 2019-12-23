@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- Strona stworzona dla FaunaService. Została utworzona przez Doriana Namyślak i Joanna Namyślak.
+Programista: Dorian Namyślak
+Grafik: Joanna Namyślak
+ Zabronione jest wszelkie kopiowanie zdjęć strony oraz kodu źródłowego. -->
+<html lang="pl">
+    <head class="head">
+        <meta charset="UTF-8">
+        <title>Fauna Service | Nasza misja</title>
+        <meta property="og:url" content="http://faunaservice.pl">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Strona wykonana przez Dorian Namyślak :)">
+        <meta name="author" content="Dorian Namyślak">
+        <meta name="creator" content="Dorian Namyślak">
+        <meta name="description" content="Strona utworzona dla faunaservice">
+        <link rel="help" href="license/license.html">
+        <link rel="shortcut icon" href="image.jpg">
+        <link rel="stylesheet" href="mainstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hcon3">
+            <header class="title">
+             <span class="menuicon">
+                <a id="titleimg" href="index.html"><img src="logo.png" alt="error"></a>
+             </span>
+             <div class="titletext">
+               <a href="naszamisja.html" title="Nasz misja | Our mission">
+                <strong>NASZA MISJA</strong></a>
+               <a href="#" title="Usługi | Services">
+                <strong>USŁUG</strong></a>
+               <a href="#"title="Zakres działania | Range of activity">
+                <strong>ZAKRES DZIAŁANIA</strong></a>
+               <a href="kontakt.html" title="Kontakt | Contact">
+                <strong>KONTAKT</strong></a>
+               </div>
+            </header>
+        </div>
+        <div class="containernaszamisja">
+             <h2 class="titletext2">
+                <strong style="color: #64d732">NASZA MISJA</strong>
+             </h2>
+             <p class="trescnaszamisja" style="font-size: 18px;">
+                <strong>Jesteśmy firmą zajmującą się transportem oraz zabezpieczaniem 
+                <br>zwierząt.</strong>
+             </p>
+             <br>
+             <p class="trescnaszamisja2" style="font-size: 18px;">
+               <strong>Współpracujemy z fundacjami, schroniskami dla zwierząt, ośrodkami <br>
+                rehabilitacji, gabinetami weterynaryjnymi, hotelami dla zwierząt oraz <br>
+                ogrodami zoologicznym.</strong>    
+             </p>
+             <br><br>
+             <p class="trescnaszamisja3" style="font-size: 20px;">
+                <strong>Naszym priorytetem są zwierzęta i ich dobro.</strong>
+              </p>
+             <img class="rejnimg" src="rejn.jpg" width="39%" height="27%" alt="Error">
+        </div>
+        <div class="fcon3">
+            <footer class="subtitle">
+                <span style="font-family: Helvetica;" class="rt">
+                    <h6>All right reserved FAUNASERVICE 2020                       
+                      <br>Made by Jorima & Dorian Namyślak
+                    </h6>
+                </span>
+            </footer>
+        </div>
+    </body>
+<script>
+  var TestError = function (message) {
+    var that = Error.call(this, message);
+    that.name = TestError.prototype.name;
+    return that;
+};
+TestError.prototype = Object.create(Error.prototype);
+TestError.prototype.constructor = TestError;
+TestError.prototype.name = "TestError";
+ 
+try {
+    throw new TestError("Wystąpił błąd. Ośwież strone!");
+} catch (e) {
+    e.toString();
+}
+</script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</html>
